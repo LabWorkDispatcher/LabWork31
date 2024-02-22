@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="158dp"
+    android:background="#000000">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#292B30"
+        app:cardElevation="2dp">
+
+        <TextView
+            android:id="@+id/serviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingStart="25.5dp"
+            android:paddingEnd="25.5dp"
+            android:layout_marginTop="25.5dp"
+            android:gravity="start|top"
+            android:textColor="#FFFFFF"
+            android:textSize="22.5sp" />
+
+        <TextView
+            android:id="@+id/serviceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingStart="25.5dp"
+            android:paddingEnd="25.5dp"
+            android:layout_marginBottom="25.5dp"
+            android:gravity="bottom|start"
+            android:textColor="#8B8D92"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
